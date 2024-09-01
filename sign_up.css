@@ -1,0 +1,25 @@
+.sign_up_p {
+  font-family: "SUSE", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 100px;
+  margin-top: 0px;
+  padding-top: 50px;
+  margin-bottom: 0px;
+}
+.sign_up_div {
+  background-color: rgb(255, 192, 44);
+  width: 500px;
+  height: 250px;
+  margin: auto;
+  text-align: center;
+  border-radius: 25px;
+}
+.sign_in_p {
+  font-family: Arial;
+  font-size: 30px;
+}
+.sign_in_p:hover {
+  text-decoration: underline;
+}
