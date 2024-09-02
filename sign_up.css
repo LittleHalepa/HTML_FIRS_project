@@ -32,6 +32,7 @@
   border-color: rgb(255, 108, 10);
   margin: auto;
   border-radius: 30px;
+  background-color: rgba(252, 184, 58, 0.714);
 }
 .second-div {
   display: block;
@@ -43,4 +44,12 @@
   font-style: normal;
   font-size: 30px;
   text-align: center;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15);
+  background-color: rgb(255, 192, 44);
+}
+.email {
+  display: block;
+}
+.password {
+  display: block;
 }
