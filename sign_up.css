@@ -20,6 +20,7 @@
 .sign_in_p {
   font-family: Arial;
   font-size: 30px;
+  cursor: pointer;
 }
 .sign_in_p:hover {
   text-decoration: underline;
@@ -34,6 +35,7 @@
   border-radius: 30px;
   background-color: rgba(252, 184, 58, 0.714);
 }
+
 .second-div {
   display: block;
 }
@@ -49,7 +51,40 @@
 }
 .email {
   display: block;
+  margin-left: 59px;
+  width: 400px;
+  height: 45px;
+  border-radius: 22px;
+  border: none;
+  outline: none;
+  padding-left: 30px;
+  font-size: 30px;
+  cursor: pointer;
+  margin-bottom: 30px;
+  margin-top: 100px;
+  font-family: Arial;
+  transition: background-color 0.25s,
+  color 0.25s;
+}
+.email:focus {
+  background-color: rgb(255, 192, 44);
+  color: black;
 }
 .password {
   display: block;
+  margin-left: 59px;
+  width: 400px;
+  height: 45px;
+  border-radius: 22px;
+  border: none;
+  outline: none;
+  padding-left: 30px;
+  font-size: 30px;
+  cursor: pointer;
+  transition: background-color 0.25s,
+  color 0.25s;
+}
+.password:focus {
+  background-color: rgb(255, 192, 44);
+  color: black;
 }
